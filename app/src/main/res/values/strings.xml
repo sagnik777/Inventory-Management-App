@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InventoryManager</string>
+    <string name="loginScreenTextBox">Welcome to Inventory Management</string>
+    <string name="LoginPageUserNameText">User Name</string>
+    <string name="LoginPagePasswordText">Password</string>
+    <string name="buttonResourceLogin">Login</string>
+</resources>
