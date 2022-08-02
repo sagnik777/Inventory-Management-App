@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">InventoryManager</string>
-    <string name="loginScreenTextBox">Welcome to Inventory Management</string>
+    <string name="AppName">InventoryManager</string>
+    <string name="LoginScreenTextBox">Welcome to Inventory Management</string>
     <string name="LoginPageUserNameText">User Name</string>
     <string name="LoginPagePasswordText">Password</string>
-    <string name="buttonResourceLogin">Login</string>
+    <string name="ButtonResourceLogin">Login</string>
+    <string name="GenerateUserDetails">Enter User Details</string>
+    <string name="GenerateQrCodeButton">Generate</string>
 </resources>

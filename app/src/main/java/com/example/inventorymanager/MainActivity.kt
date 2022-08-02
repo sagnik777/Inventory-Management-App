@@ -27,10 +27,10 @@ class MainActivity : AppCompatActivity() {
         }
         val credentialResult = verifyCredentials(username, password)
 
-        // Once Login success, launch intent to next activity -> activity_qr
+        // Once Login success, launch intent to next activity -> generate_qr.xml
         if (credentialResult) {
             // Launch another intent for qr scanning -> ActivityQR
-            val qrActivityIntent = Intent(this, ActivityQR::class.java)
+            val qrActivityIntent = Intent(this, GenerateQr::class.java)
             startActivity(qrActivityIntent)
         }
 
