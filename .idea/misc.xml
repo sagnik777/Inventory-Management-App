@@ -6,10 +6,14 @@
         <entry key="..\:/STuffs/Work/AndroidDev/InventoryManager/app/src/main/res/layout/activity_main.xml" value="0.3723958333333333" />
         <entry key="..\:/STuffs/Work/AndroidDev/InventoryManager/app/src/main/res/layout/activity_qr.xml" value="0.1921875" />
         <entry key="..\:/Users/91996/AndroidStudioProjects/InventoryManager/app/src/main/res/layout/activity_main.xml" value="0.2453125" />
+        <entry key="..\:/Users/sourendr/AndroidStudioProjects/Inventory-Management-App/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/sourendr/AndroidStudioProjects/Inventory-Management-App/app/src/main/res/layout/generate_qr.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/sourendr/Documents/HACKATHON/Inventory-Management-App/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/sourendr/Documents/HACKATHON/Inventory-Management-App/app/src/main/res/layout/generate_qr.xml" value="0.358695652173913" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
