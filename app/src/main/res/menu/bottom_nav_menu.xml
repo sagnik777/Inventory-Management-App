@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_scanner"
+        android:title="@string/title_scanner"
+        android:icon="@drawable/ic_scanner_black_24dp" />
+
+    <item
+        android:id="@+id/navigation_generator"
+        android:title="@string/title_generator"
+        android:icon="@drawable/ic_generator_black_24dp" />
+
+    <item
+        android:id="@+id/navigation_details"
+        android:title="@string/title_details"
+        android:icon="@drawable/ic_details_black_24dp" />
+
+
+</menu>

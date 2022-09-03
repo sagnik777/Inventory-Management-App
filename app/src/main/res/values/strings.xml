@@ -5,7 +5,7 @@
     <string name="LoginPagePasswordText">Password</string>
     <string name="ButtonResourceLogin">Login</string>
     <string name="GenerateUserDetails">Enter User Details</string>
-    <string name="GenerateQrCodeButton">Generate</string>
+    <string name="GenerateQrCodeButton">Add Device</string>
     <string name="title_activity_main2">MainActivity2</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -15,4 +15,18 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="qr_code">qr_code</string>
+    <string name="inventory_type">Inventory Type</string>
+    <string name="inventory_name">Inventory Name</string>
+    <string name="serial_id">Serial ID</string>
+    <string name="model_name">Model Name</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="owner_contact">Owner Contact</string>
+    <string name="owner_kuid">Owner KUID</string>
+    <string name="serial_number">Serial Number</string>
+    <string name="scan">Scan</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_scanner">Scan QR</string>
+    <string name="title_generator">Generate QR</string>
+    <string name="title_details">Details</string>
 </resources>

@@ -6,9 +6,8 @@ import android.content.Intent.FLAG_ACTIVITY_NEW_TASK
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
-import androidx.core.content.ContextCompat.startActivity
 
-object LoginScreen {
+object LoginScreenFunctionality {
 
     private lateinit var appContext: Context
 
@@ -32,6 +31,8 @@ object LoginScreen {
 
             val result = verifyCredentials(username, password)
             if(result) {
+                inputUserName.text.clear()
+                inputPassword.text.clear()
                 launchQRPage(appContext)
             }
         }
@@ -39,7 +40,7 @@ object LoginScreen {
 
     private fun launchQRPage(appContext: Context) {
         // Launch another intent for qr scanning -> ActivityQR
-        val qrActivityIntent = Intent(appContext, GenerateQr::class.java)
+        val qrActivityIntent = Intent(appContext, GenerateActivity::class.java)
         qrActivityIntent.flags = FLAG_ACTIVITY_NEW_TASK
         appContext.startActivity(qrActivityIntent)
     }
